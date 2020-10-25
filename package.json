@@ -1,0 +1,10 @@
+{
+  "name": "shva",
+  "version": "0.1.0",
+  "description": "sceext human voice analyze",
+  "license": "GPL-3.0-or-later",
+  "repository": "sceext2/shva",
+  "scripts": {
+    "dist": "TODO"
+  }
+}
