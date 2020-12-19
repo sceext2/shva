@@ -90,7 +90,7 @@ function Sound() {
               </ListItem>
               <Divider />
               <ListItem>
-                <ListItemText primary="波形" secondary="(不同波形的音色不同, 正弦波是最纯粹的波形)" />
+                <ListItemText primary="波形" secondary="(不同波形的音色不同)" />
                 <ListItemSecondaryAction>
                   <Select value={ iWave } onChange={ onChangeWave } variant="outlined">
                     {
@@ -114,7 +114,7 @@ function Sound() {
             >播放</Button>
 
             <div className="debug-info">
-              <pre>{ debugInfo }</pre>
+              <code>{ debugInfo }</code>
             </div>
           </div>
         </Container>

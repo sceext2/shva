@@ -1,4 +1,4 @@
-export const P_VERSION = 'shva version 0.1.0-2 test20201220 0013'
+export const P_VERSION = 'shva version 0.1.0-3 test20201220 0135'
 
 export const P_LICENSE = `\
 shva : sceext human voice analyzer
