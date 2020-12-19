@@ -1,0 +1,23 @@
+.sound :global {
+  flex-grow: 1;
+  padding: 1em 0;
+
+  background-color: #eeeeee;
+
+  .config-box {
+    margin: 1em 0;
+  }
+
+  .play {
+    width: 100%;
+  }
+
+  input[type=number] {
+    width: 4em;
+    text-align: right;
+  }
+
+  .slide-box {
+    width: 10em;
+  }
+}

@@ -1,6 +1,8 @@
 import { HashRouter, Switch, Route } from 'react-router-dom'
 import './App.scss'
 import Home from './home'
+import Sound from './sound'
+import Keyboard from './keyboard'
 import Open from './open'
 import Record from './record'
 import Cut from './cut'
@@ -17,6 +19,12 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <Home />
+          </Route>
+          <Route path="/sound">
+            <Sound />
+          </Route>
+          <Route path="/keyboard">
+            <Keyboard />
           </Route>
           <Route path="/open">
             <Open />

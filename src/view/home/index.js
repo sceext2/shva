@@ -1,5 +1,7 @@
 import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid'
+import VolumeUp from '@material-ui/icons/VolumeUp'
+import MusicNote from '@material-ui/icons/MusicNote'
 import FolderOpen from '@material-ui/icons/FolderOpen'
 import Mic from '@material-ui/icons/KeyboardVoice'
 import Tune from '@material-ui/icons/Tune'
@@ -17,6 +19,12 @@ function Home() {
       <div className={ style.home }>
         <Container maxWidth="sm">
           <Grid container spacing={ 4 } justify="center">
+            <ItemBtn title="听觉测试" to="/sound">
+              <VolumeUp />
+            </ItemBtn>
+            <ItemBtn title="键盘测试" to="/keyboard">
+              <MusicNote />
+            </ItemBtn>
             <ItemBtn title="打开文件" to="/open">
               <FolderOpen />
             </ItemBtn>
