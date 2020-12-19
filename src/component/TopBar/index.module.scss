@@ -1,0 +1,11 @@
+.topBar :global {
+
+  a {
+    color: inherit;
+  }
+
+  .title-only {
+    text-align: center;
+    flex-grow: 1;
+  }
+}

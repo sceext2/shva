@@ -21,7 +21,7 @@ shva 尽量使用简单, 常见的技术栈, 以便更多人阅读源码或参�
   [SASS](https://sass-lang.com/)
 
 + 工具: [git](https://git-scm.com/) + [Create React App](https://create-react-app.dev/)
-  ([node.js](https://nodejs.org/en/)/[npm](https://www.npmjs.com/))
+  ([node.js](https://nodejs.org/en/) / [npm](https://www.npmjs.com/))
 
 + 语言: 简体中文 (普通话)
 

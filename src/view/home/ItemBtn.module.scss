@@ -1,0 +1,23 @@
+.itemBtn :global {
+
+  // Link <a>
+  a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+  }
+
+  .layout-box {
+    display: flex;
+    align-items: center;
+  }
+
+  .title {
+    margin-left: 1em;
+  }
+}

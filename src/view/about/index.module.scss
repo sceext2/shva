@@ -1,0 +1,25 @@
+.about :global {
+  flex-grow: 1;
+  padding: 2em 0;
+
+  background-color: #e0e0e0;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .main-link {
+    display: block;
+    margin: 1em 0;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .license {
+    background-color: #bdbdbd;
+    padding: 0.5em;
+    overflow-x: auto;
+  }
+}
