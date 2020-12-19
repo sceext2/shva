@@ -4,7 +4,7 @@
 # shva
 <https://github.com/sceext2/shva>
 
-人声分析 (sceext human voice analyze)
+人声分析 (sceext human voice analyzer)
 
 shva 可以对人声的基频, 共振峰等参数进行分析, 作为一个辅助工具.
 
@@ -16,10 +16,11 @@ shva 尽量使用简单, 常见的技术栈, 以便更多人阅读源码或参�
   [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 
 + UI: [React](https://reactjs.org/) ([hooks](https://reactjs.org/docs/hooks-intro.html),
-  [jsx](https://reactjs.org/docs/introducing-jsx.html)) +
+  [jsx](https://reactjs.org/docs/introducing-jsx.html), [React Router](https://reactrouter.com/)) +
+  [Material-UI](https://material-ui.com/) +
   [SASS](https://sass-lang.com/)
 
-+ 工具: [git](https://git-scm.com/) + [webpack](https://webpack.js.org/)
++ 工具: [git](https://git-scm.com/) + [Create React App](https://create-react-app.dev/)
   ([node.js](https://nodejs.org/en/)/[npm](https://www.npmjs.com/))
 
 + 语言: 简体中文 (普通话)
@@ -43,7 +44,7 @@ shva 尽量使用简单, 常见的技术栈, 以便更多人阅读源码或参�
 ## LICENSE
 
 ```
-shva : sceext human voice analyze
+shva : sceext human voice analyzer
 Copyright (C) 2020  sceext
 
 This program is free software: you can redistribute it and/or modify

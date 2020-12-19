@@ -1,10 +1,40 @@
 {
   "name": "shva",
   "version": "0.1.0",
-  "description": "sceext human voice analyze",
+  "description": "sceext human voice analyzer",
   "license": "GPL-3.0-or-later",
   "repository": "sceext2/shva",
   "scripts": {
-    "dist": "TODO"
-  }
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "fontsource-roboto": "^3.1.5"
+  },
+  "devDependencies": {
+    "react-scripts": "4.0.1",
+    "sass": "^1.30.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "last 2 chrome version",
+      "last 2 firefox version"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version"
+    ]
+  },
+  "homepage": "."
 }
